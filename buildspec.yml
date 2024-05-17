@@ -10,7 +10,7 @@ phases:
       - npm install bootstrap popper jquery
   build:
     commands:
-      - echo "Building Angular project..."
+      - echo "Building Angular Homes App project..."
       - ng build
   post_build:
     commands:
