@@ -11,7 +11,7 @@ import { HousingService } from '../housing.service';
   template: `
   <section>
   <div class="container">
-       <h3> <p>You select a field to search for properties</p></h3>
+       <h2> <p>You select a field to search for properties</p></h2>
           <select #feature (change)="onSelected()">
           <option default>Pick a field</option>
             <option>City</option>	
