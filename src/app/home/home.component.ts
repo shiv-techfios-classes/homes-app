@@ -44,6 +44,7 @@ export class HomeComponent {
   housingLocationList: Housinglocation[] = [];
 
   filteredLocationList: Housinglocation[] = [];
+  
 
   housingService:HousingService = inject(HousingService);
 
