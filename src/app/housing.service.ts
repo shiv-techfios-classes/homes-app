@@ -23,13 +23,13 @@ export class HousingService {
     },
     {
       id: 1,
-      name: 'A113 Transitional Housing',
+      name: 'A3 Transitional Housing',
       city: 'Santa Monica',
       state: 'CA',
       photo: `${this.baseUrl}/brandon-griggs-wR11KBaB86U-unsplash.jpg`,
       availableUnits: 20,
       wifi: true,
-      laundry: false
+      laundry: true
     },
     {
       id: 2,
